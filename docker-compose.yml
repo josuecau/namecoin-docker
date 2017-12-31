@@ -7,4 +7,3 @@ services:
       - "8334:8334"
     volumes:
       - /var/namecoin:/home/nmc/.namecoin
-    command: namecoind -reindex
